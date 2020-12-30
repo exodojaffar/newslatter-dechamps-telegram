@@ -1,0 +1,32 @@
+{
+  "name": "newslatter-dechamps-telegram",
+  "version": "1.0.0",
+  "description": "Telegram channel for deschamps's newslatter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js", 
+    "auth": "node ./src/auth.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exodojaffar/newslatter-dechamps-telegram.git"
+  },
+  "keywords": [
+    "newslatter",
+    "telegram",
+    "channel",
+    "telegram",
+    "channel",
+    "deschamps"
+  ],
+  "author": "Exodo Jaffar",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/exodojaffar/newslatter-dechamps-telegram/issues"
+  },
+  "homepage": "https://github.com/exodojaffar/newslatter-dechamps-telegram#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^1.0.0",
+    "googleapis": "^66.0.0"
+  }
+}
