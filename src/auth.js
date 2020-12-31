@@ -9,6 +9,7 @@ const Authenticate = async (scopes, file_path, google) => {
 		})
 
 	google.options({auth});
+	google.Authenticate = true;
 
 }
 
