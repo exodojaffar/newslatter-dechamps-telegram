@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js", 
-    "auth": "node ./src/auth.js"
+    "test-auth": "node ./src/auth.js", 
+    "test-gmail":"node ./src/gmail.js"
   },
   "repository": {
     "type": "git",
